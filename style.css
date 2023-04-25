@@ -1,3 +1,4 @@
+/* general */
 body{
   display: flex;
   align-items: center;
@@ -5,6 +6,7 @@ body{
   height: 100vh;
 }
 
+/* loading */
 .circle{
   border: 7px solid #cc7373;
   border-top: 7px solid #a50303;
@@ -14,6 +16,8 @@ body{
   animation: 2s linear infinite spinnerLoaing;
 }
 
+
+/* card */
 .container-chuck{
   color: rgb(48, 47, 47);
   background-color: rgb(222, 211, 200);
@@ -30,6 +34,7 @@ img{
   border-radius: 10px;
 }
 
+/* loading animation */
 @keyframes spinnerLoaing{
   0%{
     rotate: 0deg;
